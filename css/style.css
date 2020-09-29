@@ -6481,3 +6481,50 @@ strong {
 
 .slider-dots {
   display: none; }
+
+.position {
+  top: 30px;
+}
+
+.removeOpacity {
+  opacity: 1 !important;
+}
+
+.image-rotate-180 {
+  transform: rotate(180deg);
+}
+
+.link-privacy {
+  cursor: pointer;
+}
+
+.problems-item-popup-rotated {
+  transform: translateY(5px);
+  padding-top: 35px;
+  top: 155px
+}
+
+.active-item .problems-item-popup-rotated::before {
+  transform: rotateZ(180deg)
+}
+
+.transparency-slider-wrap {
+  overflow: hidden;
+}
+
+@media (max-width: 1091px) {
+  .transparency-slider.row {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+}
+
+input:invalid {
+  box-shadow: none;
+}
+
+.header-contacts-wrap {
+  display: block;
+}
+
+
