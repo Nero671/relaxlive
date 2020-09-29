@@ -1,0 +1,36 @@
+{
+  "name": "diplominsane",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --open --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nero671/relaxlive.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nero671/relaxlive/issues"
+  },
+  "homepage": "https://github.com/Nero671/relaxlive#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.11.5",
+    "array-from-polyfill": "^1.0.1",
+    "element-closest": "^3.0.2",
+    "fetch-polyfill": "^0.8.2",
+    "nodelist-foreach-polyfill": "^1.2.0",
+    "whatwg-fetch": "^3.4.1"
+  }
+}
