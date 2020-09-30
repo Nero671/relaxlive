@@ -9,7 +9,7 @@ const reviewsSlider = () => {
 
   reviewsSliderSlide.forEach(item => {
     item.style.flex = '1 0 auto';
-    item.style.minWidth = `${clientWidth}px`;
+    item.style.minWidth = `480px`;
   });
 
   reviewsSliderWrap.style.display = 'flex';

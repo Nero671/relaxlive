@@ -149,7 +149,7 @@ const portfolioSlider = () => {
           document.getElementById('portfolio-arrow_right').style.display = 'flex';
           document.getElementById('portfolio-arrow_left').style.display = 'flex';
         }
-      } else if (window.innerWidth >= 1024) {
+      } else if (window.innerWidth <= 1024) {
         if (currentSlide === 0) {
           document.getElementById('portfolio-arrow_left').style.display = 'none';
         } else if (currentSlide === portfolioSliderSlide.length - 3) {

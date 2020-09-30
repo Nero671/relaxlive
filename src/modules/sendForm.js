@@ -47,7 +47,7 @@ const sendForm = () => {
 
           button.textContent = 'Перезвоните мне';
           statusMessage.classList.remove('sk-rotating-plane');
-          showPopupThank();
+          thankForm();
         }).catch(error => {
           console.error(error);
           statusMessage.classList.remove('sk-rotating-plane');

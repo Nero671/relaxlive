@@ -41,11 +41,11 @@ const createTabs = () => {
       const target = event.target;
       if (target === target.closest('#nav-arrow-scheme_right') || target.matches('#nav-arrow-scheme_right path') || target.matches('#nav-arrow-scheme_right svg')) {
         indexSlide++;
-        translate -= 150;
+        translate -= 250;
         schemeList.style.transform = `translateX(${translate}px)`;
       } else if (target === target.closest('#nav-arrow-scheme_left') || target.matches('#nav-arrow-scheme_left path') || target.matches('#nav-arrow-scheme_left svg')) {
         indexSlide--;
-        translate += 150;
+        translate += 250;
         schemeList.style.transform = `translateX(${translate}px)`;
       }
 

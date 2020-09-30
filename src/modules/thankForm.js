@@ -1,6 +1,6 @@
 const thankForm = () => {
   const popupThank = document.querySelector('.popup-thank');
-
+  
   popupThank.style.visibility = 'visible';
   setTimeout(() => {
     popupThank.style.visibility = '';

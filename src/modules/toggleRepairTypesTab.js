@@ -14,17 +14,17 @@ const toggleRepairTypesTab = () => {
       let target = event.target;
       if (target === target.closest('#nav-arrow-repair-right_base') || target.matches('#nav-arrow-repair-right_base path') || target.matches('#nav-arrow-repair-right_base svg')) {
         indexSlide++;
-        translate -= 150;
+        translate -= 240;
         navListRepair.style.transform = `translateX(${translate}px)`;
       } else if (target === target.closest('#nav-arrow-repair-left_base') || target.matches('#nav-arrow-repair-left_base path') || target.matches('#nav-arrow-repair-left_base svg')) {
         indexSlide--;
-        translate += 150;
+        translate += 240;
         navListRepair.style.transform = `translateX(${translate}px)`;
       }
 
       if (indexSlide === 0) {
         document.getElementById('nav-arrow-repair-left_base').style.display = 'none';
-      } else if (indexSlide === repairTypesNavItem.length) {
+      } else if (indexSlide === repairTypesNavItem.length - 1) {
         document.getElementById('nav-arrow-repair-right_base').style.display = 'none';
       } else {
         document.getElementById('nav-arrow-repair-right_base').style.display = '';

@@ -26,11 +26,11 @@ const showPopupRepairTypes = () => {
       const target = event.target;
       if (target === target.closest('#nav-arrow-popup-repair_right') || target.matches('#nav-arrow-popup-repair_right path') || target.matches('#nav-arrow-popup-repair_right svg')) {
         currentSlide++;
-        translate -= 851;
+        translate -= 930;
         document.querySelector('.nav-list.nav-list-popup-repair').style.transform = `translateX(${translate}px)`;
       } else if (target === target.closest('#nav-arrow-popup-repair_left') || target.matches('#nav-arrow-popup-repair_left path') || target.matches('#nav-arrow-popup-repair_left svg')) {
         currentSlide--;
-        translate += 851;
+        translate += 930;
         document.querySelector('.nav-list.nav-list-popup-repair').style.transform = `translateX(${translate}px)`;
       }
 

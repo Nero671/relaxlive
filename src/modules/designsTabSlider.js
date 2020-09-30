@@ -18,11 +18,11 @@ const designsTabSlider = () => {
       const target = event.target;
       if (target === target.closest('#nav-arrow-designs_right') || target.matches('#nav-arrow-designs_right path') || target.matches('#nav-arrow-designs_right svg')) {
         indexSlide++;
-        translate -= 150;
+        translate -= 208;
         designsList.style.transform = `translateX(${translate}px)`;
       } else if (target === target.closest('#nav-arrow-designs_left') || target.matches('#nav-arrow-designs_left path') || target.matches('#nav-arrow-designs_left svg')) {
         indexSlide--;
-        translate += 150;
+        translate += 208;
         designsList.style.transform = `translateX(${translate}px)`;
       }
 

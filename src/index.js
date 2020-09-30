@@ -83,6 +83,5 @@ reviewsSlider();
 createTabs();
 accordion();
 partnersSlider();
-thankForm();
 sendForm();
 
